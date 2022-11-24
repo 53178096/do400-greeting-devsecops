@@ -2,7 +2,7 @@ pipeline {
     agent { label 'nodejs' }
 
     // Set your OCP project
-    environment { APP_NAMESPACE = '53178096-devsecops' }
+    environment { APP_NAMESPACE = 'dblscu-devsecops' }
 
     stages{
 
